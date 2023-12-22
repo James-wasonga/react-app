@@ -8,7 +8,7 @@ function ListGroup () {
         'Cannada'
     ]
 
-
+items = []
   
     return (
         <>
