@@ -7,8 +7,8 @@ interface Props{
 
 const Button =({children, onClick, color}:Props) => {
   return (
-    <button  className='btn btn-primary'onClick ={() => console.log('clicked')} >Button</button>
+    <button  className={'btn btn-' + color} onClick ={() => console.log('clicked')} >Button</button>
   )
 }
 
-export default Button
+export default Button 

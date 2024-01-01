@@ -33,7 +33,7 @@ return (
     {/* <Alert> 
     Hello <span> world </span>
     </Alert>  */}
-    <button>Button</button>
+    <Button color="secondary" onClick ={() => console.log('clicked')}>Button</Button>
 </div>
 ); 
 }
