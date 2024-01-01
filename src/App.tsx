@@ -21,13 +21,21 @@
 
 //import message file
 
-import Alert from "./components/ListGroup";
+ 
 
+
+//import Alert from "./components/ListGroup";
+import Button from "./components/Button";
     function App() {
+        
 return (
-<div><Alert text="Hello world"/>
+<div>
+    {/* <Alert> 
+    Hello <span> world </span>
+    </Alert>  */}
+    <button>Button</button>
 </div>
-)
+); 
 }
 
 export default App;

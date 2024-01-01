@@ -1,6 +1,6 @@
 
-import { MouseEvent} from "react";
-import { useState } from "react";
+import {MouseEvent} from "react";
+import {useState} from "react";
 
 interface Props{
     items: string[];
@@ -10,7 +10,7 @@ interface Props{
 
 function ListGroup ({items,heading, onSelectItem}: Props) {
 
-
+    
  //items = []
 
 //type a notation
@@ -25,14 +25,14 @@ function ListGroup ({items,heading, onSelectItem}: Props) {
             <ul className ="list-group">
             {items.map(item =>
                //certain code needed here
-                 <li className="list-group-item active" onClick={handleClick }> {item}</li>)}
+                 <li className="list-group-item active" onClick={handleClick}> {item}</li>)}
                
- 
         </ul>
         </>
     );
 }
- 
+
+
 export default ListGroup;
 
 
