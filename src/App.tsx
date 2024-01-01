@@ -25,6 +25,7 @@
 
 
 //import Alert from "./components/ListGroup";
+import Alert from "./components/Alert";
 import Button from "./components/Button";
     function App() {
         
@@ -33,7 +34,8 @@ return (
     {/* <Alert> 
     Hello <span> world </span>
     </Alert>  */}
-    <Button color="secondary" onClick ={() => console.log('clicked')}>Button</Button>
+    <Alert>My Alert</Alert>
+    <Button color="primary" onClick ={() => console.log('clicked')}>Button</Button>
 </div>
 ); 
 }
