@@ -19,15 +19,7 @@ function ListGroup ({items,heading, onSelectItem}: Props) {
   
     return (
         <> 
-            <h1> {heading}</h1>
-         {items.length === 0 ? <p>No item found </p>: null}
-            {items.length === 0 && <p>No item found </p>}
-            <ul className ="list-group">
-            {items.map(item =>
-               //certain code needed here
-                 <li className="list-group-item active" onClick={handleClick}> {item}</li>)}
-               
-        </ul>
+       
         </>
     );
 }
